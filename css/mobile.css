@@ -1,0 +1,241 @@
+@media only screen and (max-width: 779px) {
+    .container.about {
+        flex-direction: column;
+    }
+
+    .container.community {
+        flex-direction: column;
+    }
+
+    .container.team {
+        flex-direction: row;
+    }
+
+    .input-group {
+        display: none;
+    }
+
+    .nav-link a {
+        color: #656464;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    .textBox {
+        max-width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .main-img {
+        display: none;
+    }
+
+    .badge {
+        padding: 7px 20px;
+        margin-bottom: 15px;
+    }
+
+    .main-title{
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .main-p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .imgBox {
+        width: 100%;
+        position: relative;
+        top: 20px;
+    }
+
+    .about-title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    
+    .about-p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .about-ul {
+        position: relative;
+        top: 10px;
+    }
+
+    .about-li {
+        list-style: none;
+        color: #FFFFFF;
+        background-color: rgba(33, 124, 244, 1);
+        margin: 10px;
+        border-radius: 7px;
+        display: inline;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .top {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .top-header {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        color: #0A093D;
+        margin-bottom: 10px;
+    }
+    
+    .top-p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #656464;
+    }
+
+    .feature {
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .feature-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .feature-p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #toggle-nav {
+        max-width: 474px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        background: rgba(33, 124, 244, 0.1);
+        border-radius: 14px;
+        padding: 7px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    #toggle-nav button {
+        border: 0;
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        padding: 15px 35px;
+    }
+
+    .team-name {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 24px;
+        color: #2F2C4A;
+    }
+    
+    .team-username {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        color: #656464;
+        margin-top: 15px;
+    }
+
+    .container.footer {
+        justify-content: center;
+    }
+
+    .container.footer .logo span{
+        font-size: 20px;
+        color: #F6F6F6;
+    }
+
+    .social-media-icon {
+        display: none;
+    }
+
+    .container.footer span:nth-child(1) {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .imgBox .img {
+        width: 350px;
+    }
+}
+
+
+@media only screen and (max-width: 1034px) {
+    .container.achievement {
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        width: 100%;
+    }
+    .achievement-container {
+        justify-content: center;
+    }
+    .achievement-text {
+        width: 100%;
+        padding: 50px;
+        text-align: center;
+    }
+    .achievement-title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .achievement-p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .team-cards {
+        flex-direction: column;
+    }
+    .app-container {
+        margin: auto;
+        display: flex;
+        padding: 50px 30px 50px 30px;
+        background: #E5F0FD;
+        text-align: center;
+    }
+
+    .app-textBox {
+        max-width: 100%;
+        padding: 50px 0 50px 0;
+        text-align: center;
+    }
+
+    .app-p {
+        padding: 0;
+    }
+
+    .imgBox.app{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .news-cards {
+        display: block;
+    }
+}

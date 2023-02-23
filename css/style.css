@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Poppins:wght@600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+::placeholder {
+    color: #686868;
+}
+
+.active {
+    color: #2B2B39 !important;
+    font-weight: 700 !important;
+}
+
+/* Navbar CSS */
+
+.nav {
+    max-width: 100vw;
+    border: 1px solid hwb(214 13% 4% / 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 34px;
+}
+
+.logo span{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-link {
+    padding: 15px;
+}
+
+.nav-link a{
+    color: #656464;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search {
+    border: 0;
+    border-bottom: 1px solid #E5E5E5;
+    width: 100px;
+    padding: 10px 0 10px 2px;
+}
+
+.blueBtn {
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 18px 40px;
+    border: 0;
+    cursor: pointer;
+}
+
+.blueBtn:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.whiteBtn {
+    background-color: transparent;
+    border: 1px solid rgba(33, 124, 244, 0.5);
+    color: #217BF4;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 18px 40px;
+    border-radius: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.whiteBtn:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+/* Main Container CSS */
+
+.main-container {
+    max-width: 100%;
+    height: 600px;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    display: flex;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.badge {
+    display: inline-block;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #217BF4;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    background: rgb(233, 243, 255);
+}
+
+.textBox {
+    max-width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.main-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #0A093D;
+}
+
+.main-p {
+    color: #656464;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 0 30px 0;
+}
+
+.main-img {
+    width: 500px;
+    max-width: 50%;
+    float: left;
+}
+
+/* About Container CSS */
+
+.about-container {
+    margin: 100px 0 100px 0;
+    display: flex;
+    padding: 0 30px 0 30px;
+}
+
+.about-title{
+    font-size: 36px;
+    color: #0A093D;
+    line-height: 48px;
+    margin-top: 10px;
+}
+
+.about-p {
+    color: #656464;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 10px 0 20px 0;
+}
+
+.about-ul {
+    margin-left: 15px;
+}
+
+.about-li {
+    list-style: circle;
+    line-height: 25px;
+    font-weight: 600;
+    color: #171648;
+}
+
+.imgBox {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.imgBox .img{
+    width: 500px;
+    float: left;
+}
+
+/* Achievement Container CSS */
+
+.achievement-container {
+    margin: 100px 0 100px 0;
+    display: flex;
+    padding: 0 30px 0 30px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    width: 28%;
+    padding: 50px 30px 60px 30px;
+    margin: 10px;
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border-radius: 14px;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #0A093D;
+}
+
+.fa-trophy,.fa-star {
+    color: #217BF4;
+}
+
+.card p:nth-child(2) {
+    display: flex;
+    align-items: center;
+    color: #5D5B70;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.card p:nth-child(3) {
+    display: flex;
+    align-items: center;
+    color: #8C8C8C;
+    font-size: 16px;
+    padding: 0 20px 0 20px;
+    margin: 15px 0 25px 0;
+}
+
+.card-link {
+    color: #217BF4;
+    text-decoration: none;
+    padding: 0 20px 20px 20px;
+}
+
+.achievement-text {
+    width: 30%;
+    float: left;
+    padding: 20px 0 20px 30px;
+}
+
+.achievement-title {
+    font-size: 36px;
+    color: #0A093D;
+    line-height: 48px;
+    margin-top: 10px;
+}
+
+.achievement-p {
+    color: #656464;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 20px 0 25px 0;
+}
+
+/* Community Container CSS */
+
+.community-container {
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    max-width: 100%;
+}
+
+.container.community {
+    flex-direction: column;
+}
+
+.top {
+    text-align: center;
+    padding: 50px;
+}
+
+.top-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #0A093D;
+    margin-bottom: 10px;
+}
+
+.top-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    padding: 10px 20px;
+}
+
+.feature {
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 30px;
+    margin: 20px;
+    width: 600px;
+    max-width: 600px;
+}
+
+.feature .featureText{
+    padding-left: 20px;
+}
+
+.feature-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2F2C4A;
+    margin-bottom: 10px;
+}
+
+.feature-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656464;
+}
+
+/* Team Container CSS */
+
+.team-container {
+    margin: 100px 30px 120px 30px;
+    max-width: 100%;
+}
+
+.container.team {
+    display: block;
+    
+}
+
+#toggle-nav {
+    max-width: 474px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(33, 124, 244, 0.1);
+    border-radius: 14px;
+    padding: 7px;
+    margin-bottom: 100px;
+}
+
+#toggle-nav button {
+    border: 0;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 15px 45px;
+}
+
+#toggle-nav button.activeBtn {
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.06);
+    border-radius: 14px;
+    color: #FFFFFF;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-card {
+    text-align: center;
+    padding: 50px;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    border-radius: 14px;
+    margin: 20px;
+}
+
+.team-card:hover {
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+}
+
+.info {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.team-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2F2C4A;
+}
+
+.team-username {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #656464;
+    margin-top: 15px;
+}
+
+
+/* App Container CSS */
+
+.app-container {
+    margin: 100px 0 100px 0;
+    display: flex;
+    padding: 50px 30px 0 30px;
+    background: #E5F0FD;
+}
+
+.app-title {
+    color: #0A093D;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    margin-bottom: 15px;
+}
+
+.app-p {
+    color: #656464;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px 50px 0px 0;
+}
+
+.app-textBox {
+    max-width: 50%;
+    float: left;
+    margin-top: 50px;
+    padding: 50px 150px 50px 0;
+}
+
+.imgBox .app-img{
+    max-width: 660px;
+    float: left;
+}
+
+.download-img {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.download-img img:nth-child(2){
+    margin-left: 20px;
+}
+
+/* News Container CSS */
+
+.container.news {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.news-textBox {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.news-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.news-card {
+    text-align: center;
+    margin: 10px;
+    padding: 50px;
+}
+
+.card-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2F2C4A;
+}
+
+
+.card-link.news {
+    padding: 10px 0px 10px 0px;
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.swiper {
+    width: 1000px;
+    height: 800px;
+}
+
+
+/* Footer Container CSS */
+
+.footer-container {
+    max-width: 100%;
+    background: #20202D;
+    
+}
+
+.container.footer {
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+}
+
+.container.footer span:nth-child(1) {
+    font-size: 14px;
+    color: #F6F6F6;
+}
+
+.social-media-icon {
+    padding: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
